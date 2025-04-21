@@ -1,4 +1,13 @@
 import {
+  cpp,
+  github,
+  bootstrap,
+  vitejs,
+  vercel,
+  sql,
+  socketio,
+  python,
+  lottie,
   mobile,
   backend,
   creator,
@@ -12,6 +21,8 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  nextjs,
+  expressjs,
   git,
   figma,
   docker,
@@ -61,6 +72,14 @@ const services = [
 
 const technologies = [
   {
+    name: "CPP",
+    icon: cpp,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -81,6 +100,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Vite JS",
+    icon: vitejs,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -89,28 +112,49 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
+  },
+ 
+  {
+    name: "Express JS",
+    icon: expressjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "SQL",
+    icon: sql,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Github",
+    icon: github,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Socket.io",
+    icon: socketio,
+  },
+  {
+    name: "Vercel",
+    icon: vercel,
+  },
+  {
+    name: "Lottie",
+    icon: lottie,
   },
 ];
 
@@ -198,9 +242,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "BuzzChat - Real Time Chat Platform",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "BuzzChat is a real-time chat platform with one-on-one & group messaging, image sharing, voice & video calls, Google authentication, friend suggestions and updates, and status updates. Designed for seamless communication, it ensures secure, fast, and interactive conversations.",
     tags: [
       {
         name: "react",
@@ -211,54 +255,54 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwind css",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Manavi-Arora/BuzzChat-MERN",
   },
   {
-    name: "Job IT",
+    name: "RideIT - Cab Booking Service",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "RideIT is a modern cab booking service that provides seamless ride-hailing experiences for users and drivers. The platform supports user authentication, driver registration, ride path tracking, driver and user history-rides tracking and more.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind css",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Manavi-Arora/RideIT-MERN",
   },
   {
-    name: "Trip Guide",
+    name: "Newsphere - News Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Newsphere is a modern, responsive React-based news website that provides news articles across multiple categories, including Business, Sports, Technology, Entertainment, Health, Science, and more. It integrates with a news API to fetch the latest articles and display them to the users.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "newsapi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Manavi-Arora/Newsphere-React-NewsApp",
   },
 ];
 

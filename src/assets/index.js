@@ -3,7 +3,6 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -20,6 +19,18 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png";
+import expressjs from "./tech/expressjs.png";
+import cpp from "./tech/cpp.png";
+import bootstrap from "./tech/bootstrap.png";
+import github from "./tech/github.png";
+import lottie from "./tech/lottie.png";
+import python from "./tech/python.png";
+import socketio from "./tech/socketio.png";
+import sql from "./tech/sql.png";
+import vercel from "./tech/vercel.png";
+import vitejs from "./tech/vitejs.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -31,6 +42,14 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  cpp,
+  bootstrap,
+  vitejs,
+  vercel,
+  sql,
+  socketio,
+  python,
+  lottie,
   logo,
   backend,
   creator,
@@ -45,6 +64,8 @@ export {
   git,
   html,
   javascript,
+  nextjs,
+  expressjs,
   mongodb,
   nodejs,
   reactjs,
