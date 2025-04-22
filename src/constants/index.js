@@ -30,9 +30,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  news,
+  rideIT,
+  chat,
   threejs,
 } from "../assets";
 
@@ -71,14 +71,7 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "CPP",
-    icon: cpp,
-  },
-  {
-    name: "Python",
-    icon: python,
-  },
+  
   {
     name: "HTML 5",
     icon: html,
@@ -100,20 +93,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Vite JS",
-    icon: vitejs,
-  },
-  {
     name: "Redux Toolkit",
     icon: redux,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Bootstrap",
-    icon: bootstrap,
   },
   {
     name: "Node JS",
@@ -139,23 +124,8 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "Github",
-    icon: github,
-  },
-  {
-    name: "Socket.io",
-    icon: socketio,
-  },
-  {
-    name: "Vercel",
-    icon: vercel,
-  },
-  {
-    name: "Lottie",
-    icon: lottie,
-  },
+  }
+  
 ];
 
 const experiences = [
@@ -259,7 +229,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: chat,
     source_code_link: "https://github.com/Manavi-Arora/BuzzChat-MERN",
   },
   {
@@ -280,7 +250,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: rideIT,
     source_code_link: "https://github.com/Manavi-Arora/RideIT-MERN",
   },
   {
@@ -301,7 +271,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: news,
     source_code_link: "https://github.com/Manavi-Arora/Newsphere-React-NewsApp",
   },
 ];
