@@ -37,18 +37,19 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <>
+    <div className="min-h-screen w-full flex flex-col items-center justify-center text-center px-[8vw] xl:px-0">
+
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
       <motion.p
-  variants={fadeIn("", "", 0.1, 1)}
-  className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
->
-  I'm a skilled software developer and a <b>Bachelor of Engineering undergraduate in Information Technology at Punjab University, Chandigarh</b>, with experience in <b>TypeScript</b> and <b>JavaScript</b>, and expertise in frameworks like <b>React.js</b>, <b>Next.js</b>, <b>Node.js</b>, <b>Express.js</b>, and <b>Three.js</b>. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
-</motion.p>
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] mx-auto'
+      >
+        I'm a skilled software developer and a <b>Bachelor of Engineering undergraduate in Information Technology at Punjab University, Chandigarh</b>, with experience in <b>TypeScript</b> and <b>JavaScript</b>, and expertise in frameworks like <b>React.js</b>, <b>Next.js</b>, <b>Node.js</b>, <b>Express.js</b>, and <b>Three.js</b>. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+      </motion.p>
 
 
       <div className='mt-20 flex flex-wrap gap-10'>
@@ -56,7 +57,7 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
