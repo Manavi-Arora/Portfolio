@@ -32,10 +32,10 @@ import vercel from "./tech/vercel.png";
 import vitejs from "./tech/vitejs.png";
 
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import chinar from "./company/chinar.jpg";
+import bluestock from "./company/bluestock.jpg";
+import zidio from "./company/zidio.jpg";
+
 
 import news from "./news.png";
 import rideIT from "./rideIT.png";
@@ -73,10 +73,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  bluestock,
+  chinar,
+  zidio,
   news,
   rideIT,
   chat,

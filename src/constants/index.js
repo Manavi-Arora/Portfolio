@@ -6,6 +6,9 @@ import {
   vercel,
   sql,
   socketio,
+  bluestock,
+  chinar,
+  zidio,
   python,
   lottie,
   mobile,
@@ -26,10 +29,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   news,
   rideIT,
   chat,
@@ -71,7 +70,6 @@ const services = [
 ];
 
 const technologies = [
-  
   {
     name: "HTML 5",
     icon: html,
@@ -104,7 +102,7 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
- 
+
   {
     name: "Express JS",
     icon: expressjs,
@@ -124,91 +122,58 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  }
-  
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Zidio",
+    icon: zidio,
+    iconBg: "#6043b1",
+    date: "Dec 2024 - Feb 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed a Web Development Internship at Zidio Development, a fast-growing product-based startup focused on AI-driven learning and innovation.",
+
+"Received hands-on training in the latest web development technologies and worked on real-world projects from ideation to deployment.",
+
+"Collaborated with team members to design, develop, and test responsive and user-friendly web features using modern frameworks."
     ],
+  },
+  
+  {
+    title: "SDE Intern",
+    company_name: "bluestock",
+    icon: bluestock,
+    iconBg: "#ffffff",
+    date: "Aug 2024 - Oct 2024",
+    points: [
+      "Developed and integrated scalable frontend and backend features for fintech applications using modern web technologies.",
+
+"Collaborated with developers and product leads to design technical solutions aligned with business requirements.",
+"Utilized Git for version control and contributed to clean, modular code through peer-reviewed pull requests.",
+
+"Gained hands-on experience with debugging, API integration, and performance optimization in a production-level environment."],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Frontend Developer",
+    company_name: "Chinar Fabrics",
+    icon: chinar,
+    iconBg: "#00923f",
+    date: "June 2024 - July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained frontend components for Chinar Fabrics' internal and customer-facing web applications using React.js, improving user experience and interface consistency.",
+
+      "Collaborated with UI/UX designers and backend developers to implement pixel-perfect designs and integrate RESTful APIs for dynamic data rendering.",
+
+      "Ensured responsive layouts and cross-browser compatibility, optimizing the website for desktop, tablet, and mobile devices.",
+
+      "Participated in regular code reviews, learning best practices and contributing to clean, maintainable code.",
     ],
   },
+  
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
@@ -276,4 +241,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
