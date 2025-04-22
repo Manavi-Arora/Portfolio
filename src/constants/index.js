@@ -143,7 +143,7 @@ const experiences = [
   
   {
     title: "SDE Intern",
-    company_name: "bluestock",
+    company_name: "Bluestock Fintech",
     icon: bluestock,
     iconBg: "#ffffff",
     date: "Aug 2024 - Oct 2024",
