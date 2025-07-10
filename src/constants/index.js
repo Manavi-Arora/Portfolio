@@ -126,27 +126,14 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Web Developer",
-    company_name: "Zidio",
-    icon: zidio,
-    iconBg: "#6043b1",
-    date: "Dec 2024 - Feb 2025",
-    points: [
-      "Completed a Web Development Internship at Zidio Development, a fast-growing product-based startup focused on AI-driven learning and innovation.",
-
-"Received hands-on training in the latest web development technologies and worked on real-world projects from ideation to deployment.",
-
-"Collaborated with team members to design, develop, and test responsive and user-friendly web features using modern frameworks."
-    ],
-  },
+  
   
   {
     title: "SDE Intern",
     company_name: "Bluestock Fintech",
     icon: bluestock,
     iconBg: "#ffffff",
-    date: "Aug 2024 - Oct 2024",
+    date: "Jan 2025 - Apr 2025",
     points: [
       "Developed and integrated scalable frontend and backend features for fintech applications using modern web technologies.",
 
