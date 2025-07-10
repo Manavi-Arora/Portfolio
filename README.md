@@ -1,3 +1,4 @@
+
 # 🌐 Personal Portfolio
 
 Welcome to my **developer portfolio** – a fully responsive web app built to showcase my projects, skills, and professional journey as a software developer.
@@ -50,5 +51,4 @@ VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
 ├── index.html
 └── README.md
 ```
-
 
